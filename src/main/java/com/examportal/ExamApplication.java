@@ -37,7 +37,7 @@ public class ExamApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         System.out.println("-=-=--=-=-=-=-\nExam Portal Loading\n-=-=--=-=-=-=-\n\n");
 
-        try {
+       /* try {
             User user = new User();
             user.setUsername("Akash");
             user.setFirstName("Akash");
@@ -58,6 +58,6 @@ public class ExamApplication implements CommandLineRunner {
             userService.createUser(user, userRoleSet);
         } catch (UserFoundException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }
